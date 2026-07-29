@@ -1,29 +1,37 @@
-# my-appnice
+# **Ujian Tengah Semester (UTS) - Pemrograman Web / Frontend**
 
-This template should help get you started developing with Vue 3 in Vite.
+Aplikasi web **Daftar Kegiatan Harian (To-Do List)** interaktif yang dibangun menggunakan **Vue.js** (Options API) sebagai pemenuhan tugas Ujian Tengah Semester.
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## **👤 Identitas Pemilik**
+* **Nama:** Sendi Satria Pangestu
+* **NIM:** 213510800
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## **🚀 Fitur Aplikasi**
+* **Tambah Kegiatan:** Memasukkan daftar tugas baru secara dinamis.
+* **Manajemen Status:** Menandai tugas sebagai selesai (*completed*) dengan efek teks tercoret.
+* **Hapus Kegiatan:** Menghapus tugas dari daftar.
+* **Filter Kegiatan:** Menyaring tampilan berdasarkan status (**Semua**, **Belum Selesai**, dan **Sudah Selesai**).
+* **Responsive Design:** Tampilan antarmuka dan latar belakang (*background*) otomatis menyesuaikan apakah dibuka melalui perangkat *Desktop* maupun *Mobile*.
 
-## Project Setup
+---
 
-```sh
-npm install
-```
+## **💻 Teknologi yang Digunakan**
+* **Vue.js** (Frontend Framework)
+* **HTML5 & CSS3** (Media Queries & Styling)
+* **JavaScript (ES6)**
 
-### Compile and Hot-Reload for Development
+---
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+## **📂 Struktur Direktori Proyek**
+```text
+├── public/
+├── src/
+│   ├── assets/              # Aset gambar background (Desktop & Mobile)
+│   └── App.vue              # Komponen utama aplikasi To-Do List
+├── index.html               # Entry point HTML aplikasi
+├── package.json
+└── README.md                # Dokumentasi proyek
